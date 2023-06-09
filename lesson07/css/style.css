@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+
+}
+/* make sure the sudo classes are in right order */
+a:visited{
+    color: maroon;
+}
+
+a:hover{
+    color: palevioletred;
+    background-color: lightblue;
+}
+
+a:active{
+    color: black
+}
