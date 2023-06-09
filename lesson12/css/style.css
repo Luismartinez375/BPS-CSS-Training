@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.columns{      
+    columns: 4 250px;
+    column-rule: 5px solid #ccc;
+    column-gap: 10;
+}
+
+.columns p{
+    margin-top: 0;
+}
+.columns h2{
+    margin-top: 0;
+    background-color: #333;
+    margin-bottom: 0;
+    color: white;
+    padding: 1rem;
+    break-inside: avoid;
+} 
+
+.columns .quote{
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
